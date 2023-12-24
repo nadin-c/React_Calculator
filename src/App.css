@@ -1,13 +1,16 @@
-*, *::before, *::after{
-  box-sizing:  border-box;
+/* Universal Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-body{
+/* Body Styling */
+body {
   margin: 0;
   background: linear-gradient(to left, rgb(172, 63, 156), rgb(0, 140, 255));
 }
 
-.Calculatorgrid{
+/* Calculator Grid Styling */
+.Calculatorgrid {
   display: grid;
   margin-top: 2rem;
   justify-content: center;
@@ -15,10 +18,12 @@ body{
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
 
-.Span-two{
+/* Span Two Styling */
+.Span-two {
   grid-column: span 2;
 }
 
+/* Output Styling */
 .Output {
   grid-column: 1 / -1;
   background-color: rgba(0, 0, 0, .75);
@@ -31,6 +36,7 @@ body{
   word-break: break-all;
 }
 
+/* Calculator Button Styling */
 .Calculatorgrid > button {
   cursor: pointer;
   font-size: 2rem;
@@ -39,11 +45,13 @@ body{
   background-color: rgba(255, 255, 255, .75);
 }
 
-.Calculator-grid > button:hover,
-.Calculator-grid > button:focus {
+/* Button Hover/Focus Styling */
+.Calculatorgrid > button:hover,
+.Calculatorgrid > button:focus {
   background-color: rgba(249, 249, 249, 0.9);
 }
 
+/* Output Operand Styling */
 .Output .Previousoperand {
   color: rgba(255, 255, 75);
   font-size: 1.5rem;
