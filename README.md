@@ -13,7 +13,6 @@ This is a simple yet powerful calculator web application built with React.js. It
 ## Features
 - Addition, subtraction, multiplication, and division operations
 - Decimal point support
-- Responsive design for various screen sizes
 
 ## Getting Started
 To run this project locally, follow these steps:
